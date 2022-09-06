@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home-team">
+        <h1 class="team">HOME</h1>
+        <div class="background" id="count-home-el">
+          <h1 class="scores"></h1>
+        </div>
+        <div class="points">
+          <button class="point-add" onclick="add1PointHome()">+1</button>
+          <button class="point-add" onclick="add2PointHome()">+2</button>
+          <button class="point-add" onclick="add3PointHome()">+3</button>
+        </div>
+      </div>
+
+      <div class="guest-team">
+        <h1 class="team">GUEST</h1>
+        <div class="background" id="count-guest-el">
+          <h1 class="scores"></h1>
+        </div>
+        <div class="points">
+          <button class="point-add" onclick="add1PointGuest()">+1</button>
+          <button class="point-add" onclick="add2PointGuest()">+2</button>
+          <button class="point-add" onclick="add3PointGuest()">+3</button>
+        </div>
+      </div>
+    </div>
+
+    <button class="reset-points" onclick="reset()">RESET</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
